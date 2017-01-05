@@ -1,8 +1,7 @@
 #include "Texture.h"
 
 #include <glew.h>
-
-#include "../../io/image/stb_image.h"
+#include <stb_image.h>
 
 Texture::Texture() : m_id(0), m_width(0), m_height(0), m_target(GL_TEXTURE_2D)
 {
