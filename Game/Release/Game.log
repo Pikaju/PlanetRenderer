@@ -1,0 +1,35 @@
+﻿Build started 05/01/2017 16:40:57.
+     1>Project "C:\Users\Julien\Documents\Visual Studio 2013\Projects\Game\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Julien\Documents\Visual Studio 2013\Projects\Game\Release\Game.exe" /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Julien\Documents\Visual Studio 2013\Projects\Game\Release\Game.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Julien\Documents\Visual Studio 2013\Projects\Game\Release\Game.lib" /MACHINE:X86 /SAFESEH Release\Debug.obj
+         Release\Log.obj
+         Release\Model.obj
+         Release\RenderingEngine.obj
+         Release\Shader.obj
+         Release\Texture.obj
+         Release\Input.obj
+         Release\ResourceLoader.obj
+         Release\Main.obj
+         Release\Camera.obj
+         Release\Mat4.obj
+         Release\Vec2.obj
+         Release\Vec3.obj
+         Release\Vec4.obj
+         Release\Window.obj
+         Release\WindowProperties.obj
+         Release\BumpSphere.obj
+         Release\Chunk.obj
+         Release\QuadTree.obj
+         Release\Space.obj
+         Release\Noise.obj
+         Release\ThreadPool.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Julien\Documents\Visual Studio 2013\Projects\Game\Release\vc120.pdb'; linking object as if no debug info
+         Game.vcxproj -> C:\Users\Julien\Documents\Visual Studio 2013\Projects\Game\Release\Game.exe
+     1>Done Building Project "C:\Users\Julien\Documents\Visual Studio 2013\Projects\Game\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.38
